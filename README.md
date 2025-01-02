@@ -1,2 +1,4 @@
-# smart_mirror
-A demo to explain ports &amp; adapters
+run cli
+
+    python3 -m adapters.driving.cli.smart_mirror_cli
+
