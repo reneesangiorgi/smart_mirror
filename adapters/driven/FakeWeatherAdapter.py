@@ -1,4 +1,4 @@
-from hexagon.ports.driving.for_requesting_weather import ForRequestingWeather
+from hexagon.ports.driven.for_requesting_weather import ForRequestingWeather
 
 
 class FakeWeatherAdapter(ForRequestingWeather):
@@ -8,3 +8,4 @@ class FakeWeatherAdapter(ForRequestingWeather):
 
     def get_info(self) -> str:
         return f"{self._celsius} °C"
+    

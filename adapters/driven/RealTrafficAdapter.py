@@ -1,4 +1,4 @@
-from hexagon.ports.driving.for_requesting_traffic import ForRequestingTraffic
+from hexagon.ports.driven.for_requesting_traffic import ForRequestingTraffic
 
 
 class RealTrafficAdapter(ForRequestingTraffic):
